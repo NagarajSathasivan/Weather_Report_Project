@@ -1,0 +1,224 @@
+body{
+    width: 100vw;
+    height: 100vh;    
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contianer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: skyblue;
+}
+.left-div{
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: url(image/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg);
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    margin: 30px 0 30px 30px;
+    padding: 30px;
+    position: relative;
+}
+
+.add_box{
+    border-radius: 15%;
+    position: relative;
+    bottom: 8%;
+    padding: 0.5%;
+    margin-top: 20px;
+}
+#outline_more_horiz_white{
+    position: relative;
+    left: 25%;
+}
+#toggle_off{
+    position: relative;
+    left: 50%;
+}
+.outline_near_me{
+    position: relative;
+    left: 1%;
+}
+.text{
+    position: relative;
+    bottom: 10%;
+    left: 10%;
+}
+.text-0{
+    position: relative;
+    bottom: 10%;
+    left: 10%;
+}
+.text-1{
+    position: relative;
+    bottom: 10%;
+    left: 10%;
+}
+#light_mode_FILL0{
+    position: relative;
+    bottom: 10%;
+    left: 10%;
+}
+.text_2{
+    position: relative;
+    bottom: 23%;  
+    left: 26%;
+}
+
+.right-div{
+    flex: 3;
+    background-color: seashell;
+    border-radius: 2%; 
+    margin-right: 40px;
+    margin-top: 29px;
+    left:10px;
+    height: 90%;
+    width: 50px;
+}
+.welcome{
+    position: relative;
+    left:8%;
+    bottom: 8px;
+}
+
+#outline_more_horiz_black{
+    position: relative;
+    left:60%;
+    bottom: 30px;
+    border-radius: 20px;
+
+}
+.my_pic{
+    position: relative;
+    bottom: 90px;
+    left:72%;
+ border-radius: 10px;
+}
+.my_pic img {
+  border-radius: 12px;
+}
+.sunny{
+    position: relative;
+    bottom: 80px;
+    left:7%;
+    border-radius: 10px;
+}
+
+.sunny img {
+    border-radius: 10px;
+  }
+.more_details{
+    position: relative;
+    bottom: 80px;
+    left:4%;
+}
+.box{
+    display: flex;
+    height: 60%;
+    width: 60%;
+}
+.box-1{
+    position: relative;
+    left: 12%;
+    flex: 1;
+    background-color: white;
+    bottom: 80px;
+    border-radius: 10px;
+    height: 40%;
+    
+}
+.box-1 img{
+    position: relative;
+    left:8%;
+}
+.naga{
+    width: 100%;
+    height: 7%;
+    background-color: blue;
+    border-radius: 25px;
+    left: 2%;
+    bottom: 80px;
+}
+
+.naga-1{
+    width: 60%;
+    height: 10px;
+    bottom: 2%;
+    background-color: skyblue;
+    border-radius: 25px;
+    left: 50px;
+}
+.box-2{
+    position: relative;
+    left:24%;
+    flex: 1;
+    background-color: white;
+    bottom: 80px;
+    border-radius: 10px;
+    height: 40%;
+}
+.box-2 img{
+    position: relative;
+    left:20%;
+    bottom: 0.1px;
+}
+
+.naga-2{
+    width: 100%;
+    height: 10px;
+    background-color: blue;
+    border-radius: 25px;
+    left: 100px;
+}
+
+.naga-3{
+    width: 60%;
+    height: 10px;
+    background-color: skyblue;
+    border-radius: 25px;
+    left:100px;
+
+}
+.box-3{
+    position: relative;
+    left:36%;
+    flex: 1;
+    background-color: white;
+    bottom: 80px;
+    border-radius: 10px;
+    height: 40%;
+}
+.box-4 img{
+    position: relative;
+    left:40px;
+    bottom: 0.1px;
+}
+
+.naga-4{
+    width: 100%;
+    height: 10px;
+    background-color: blue;
+    border-radius: 25px;
+}
+
+.naga-5{
+    width: 60%;
+    height: 10px;
+    background-color: skyblue;
+    border-radius: 25px;
+}
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (max-width:481px)  {/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  {/* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
